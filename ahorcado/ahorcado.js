@@ -39,9 +39,9 @@ palabra_actual = rellenar_palabra(palabra_actual, palabra_secreta_dividida);
 //bucle 
 while (fin_juego == false) {
     //pide escribir una letra
-  letra = prompt("Turno " + jugador + " escribe una letra");
+  letra = prompt("Jugador " + jugador + " escribe una letra");
   while (!letra) {
-    letra = prompt("Turno " + jugador + " escribe una letra");
+    letra = prompt("Jugador " + jugador + " escribe una letra");
   }
 
   //recorre el array y establece en la posición la letra
