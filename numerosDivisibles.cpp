@@ -8,20 +8,17 @@ void numerosDivisibles(int *original, int tamO, int *divisores, int tamD, int *l
         //para dos
         if (original[j] % divisores[0] == 0)
         {
-            lista2[contador2] = original[j];
-            contador2++;
+            lista2[contador2++] = original[j];
         }
         //para tres
         if (original[j] % divisores[1] == 0)
         {
-            lista3[contador3] = original[j];
-            contador3++;
+            lista3[contador3++] = original[j];
         }
         //para cuatro
         if (original[j] % divisores[2] == 0)
         {
-            lista4[contador4] = original[j];
-            contador4++;
+            lista4[contador4++] = original[j];
         }
     } //acabo for
 }
