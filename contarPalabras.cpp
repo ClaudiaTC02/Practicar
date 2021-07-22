@@ -13,21 +13,17 @@ int contarPalabras(char *frase, int longitud)
         //mientras i sea menor a la longitud e igual a un espacio i incrementa en 1 cada vez
         //ejemplo: la primer vez no cumple esto
         //ejemplo: cuando i = 4 viene aquí e incrementa la i a 5
-        while (i < longitud && frase[i] == ' ')
+        while (frase[i] == ' ')
         {
             i++;
         }
-        //si i es menor a la longitud el contador aumenta en 1
         //ejemplo: cont = 1
         //ejemplo: cont = 2
-        if (i < longitud)
-        {
-            cont++;
-        }
+        cont++;
         //mientras i sea menor a la longitud y diferente de un espacio i incrementa en 1 cada vez
         //ejemplo: se queda aquí hasta que i es 4 y vuelve al primer paso
         //ejemplo: la i incremeneta hasta 10 y se cierra el bucle
-        while (i < longitud && frase[i] != ' ')
+        while (frase[i] != ' ')
         {
             i++;
         }
