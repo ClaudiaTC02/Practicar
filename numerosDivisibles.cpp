@@ -36,8 +36,6 @@ int main()
     numerosDivisibles(&listaOriginal[0], 8, &listaDivisores[0], 3, &lista2[0], &lista3[0], &lista4[0], contador2, contador3, contador4);
     std::cout << "Divisbles por 2 \n";
 
-    std::cout << "Divisbles por 2 \n";
-
     for (int i = 0; i < contador2; i++)
     {
         std::cout << lista2[i] << "\n";
